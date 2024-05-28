@@ -4,9 +4,9 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "arunpathivada",
+      name: "Sekhar2004",
       title: "Projects",
-      link:"https://github.com/arunpathivada/",
+      link:"https://github.com/Sekhar2004/",
       img:
         "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg",
       icon: "assets/github.png",
@@ -15,23 +15,24 @@ export default function Testimonials() {
     },
     {
       id: 2,
-      name: "arunpathivada143",
-      title: "Problem solver",
-      link:"https://leetcode.com/arunpathivada143/",
+      name: "Sekhar73",
+      title: "Problem solving",
+      link:"https://leetcode.com/u/Sekhar73/",
       img:
         "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1696723200&semt=ais",
-      icon: "assets/leetcode.svg",
+        icon: "assets/leetcode.svg",
       desc:
-        "600+ Dsa problems solved in leetcode platforms with maximum rating of 1500.Secured 6522 rank in leetcode weekly contest 349. Secured 7102 rank in leetcode bi-weekly contest 97.",
-      featured: true,
+        "Solving leetcode problems consistently.",
     },
+
+    
     {
       id: 3,
-      name: "pathivada-arun",
-      title: "1500+ Connections",
-      link:"https://www.linkedin.com/in/pathivada-arun-47b336223/",
+      name: "sekhar-Reddy-Jeeru",
+      title: "500+ Connections",
+      link:"https://www.linkedin.com/in/sekhar-reddy-jeeru/",
       img:
-        "assets/arun.png",
+        "assets/sekhar.png",
       icon: "assets/linkedin.png",
       desc:
         "I am eager and available to take on new challenges and opportunities in my field of expertise.",

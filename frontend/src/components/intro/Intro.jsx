@@ -1,9 +1,9 @@
-//import React, { useEffect, useRef } from "react";
-//import { init } from "ityped";
+// import React, { useEffect, useRef } from "react";
+// import { init } from "ityped";
 import "./Intro.scss";
 
 export default function Intro() {
-  //const textRef = useRef();
+  // const textRef = useRef();
 
   // useEffect(() => {
   //   init(textRef.current, {
@@ -18,13 +18,13 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img className="img1" src="assets/arun.png" alt="" />
+          <img className="img1" src="assets/sekhar.png" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Pathivada Arun</h1>
+          <h1>Jeeru Rajasekhar Reddy</h1>
           <h3>
             Software <span>Developer</span>
           </h3>

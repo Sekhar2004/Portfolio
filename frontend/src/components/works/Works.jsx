@@ -17,15 +17,15 @@ export default function Works() {
       icon: "./assets/globe.png",
       title: "To Do List",
       desc: "It's an application designed for creating and managing lists of tasks or activities that need to be completed.",
-      img: "https://media.istockphoto.com/id/1285308242/photo/to-do-list-text-on-notepad.jpg?s=612x612&w=0&k=20&c=p85bCVQZwvkrqqqNOJGg2QuPDu6ynTlQHkASQOTELh8=",
-      link:"https://to-do-list-xp01.onrender.com/",
+      img: "https://thumbs.dreamstime.com/z/to-do-list-icon-to-do-list-icon-vector-flat-design-157384359.jpg",
+      link:"https://crud-todo-swart.vercel.app/",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "Movie Master",
       desc: "It's an application that allows users to search for movies, providing information such as titles, genres, actors, and release dates.",
-      img: "https://blog.logrocket.com/wp-content/uploads/2020/11/movie-search-app.png",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUL7inAV8q115BxibDdWXbY6vkF7eyfRDaBTY_6S5Mg&s",
       link:"https://movies-api-y7sk.onrender.com/"
     },
   ];

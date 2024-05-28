@@ -1,66 +1,87 @@
-.intro{
+.intro {
     background-color: white;
     display: flex;
-    .left{
-        flex:0.5;
-        overflow: hidden;
-        .imgContainer{
-            width: 350px;
-            height: 450px;
-            background-color: crimson;
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            
-            .img1{
-                height: 350px;
-                width: 350px;
-                
-            }
+  
+    .left {
+      flex: 0.5;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .imgContainer {
+        width: 250px;
+        height: 350px;
+        background-color: crimson;
+        border-radius: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px; /* Adjust the margin to move the image right */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for a nice touch */
+  
+        .img1 {
+          height: 100%; /* Adjusted to maintain aspect ratio */
+          width: auto; /* Adjusted to maintain aspect ratio */
+          border-radius: 10%; /* Optional: match the container's border radius */
         }
+      }
     }
-    .right{
-        flex:0.5;
-        overflow: hidden;
-        .wrapper{
-            width: 100%;
-            height: 100%;
-            padding-left: 50px;
-            padding-top: 70px;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
+  
+    .right {
+      flex: 0.5;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+      .wrapper {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+  
+        h1 {
+          font-size: 35px;
+          margin: 10px 0;
         }
-        h1{
-            font-size: 35px;
-            margin: 10px 0;   
+  
+        h2 {
+          font-size: 25px;
         }
-        h2{
-            font-size: 25px;
+  
+        h3 {
+          font-size: 18px;
         }
-        h3{
-            font-size: 18px;
+  
+        span {
+          font-size: inherit;
+          color: crimson;
         }
-        span{
-            font-size: inherit;
-            color: crimson;
-        }
+      }
     }
-    a{
-        position: absolute;
-        bottom: 10px;
-        left: 60%;
-        img{
-            font-weight: 500;
-            width: 30px;
-            animation: arrowBlink 2s infinite;
+  
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 60%;
+  
+      img {
+        font-weight: 500;
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+  
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
         }
-        @keyframes arrowBlink {
-            100%{
-                opacity: 0;
-            }
-            
-        }
+      }
     }
-}
+  }
+  
