@@ -75,7 +75,29 @@ const Experience = () => {
                 <BsFillPatchCheckFill className="experience__details-icon"/>
                 <div>
                     <h4>Node JS</h4>
-                    <small className="text-light">Beginner</small>
+                    <small className="text-light">Intermediate</small>
+                </div>
+            </article>
+            <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon"/>
+                <div>
+                    <h4>Express JS</h4>
+                    <small className="text-light">Intermediate</small>
+                </div>
+            </article>
+            <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon"/>
+                <div>
+                    <h4>MONGO DB</h4>
+                    <small className="text-light">Intermediate</small>
+                </div>
+            </article>
+            
+            <article className="experience__details">
+                <BsFillPatchCheckFill className="experience__details-icon"/>
+                <div>
+                    <h4>REST-API</h4>
+                    <small className="text-light">Intermediate</small>
                 </div>
             </article>
           </div>
