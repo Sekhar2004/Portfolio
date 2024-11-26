@@ -8,6 +8,7 @@ import IMG5 from "../../assets/YT-CLONE.png"
 import IMG6 from "../../assets/TaskManager.png"
 import IMG7 from "../../assets/InstantTranfer.png"
 import IMG8 from "../../assets/Resume.png"
+import IMG9 from "../../assets/weatherly.png"
 
 const Myprojects = () => {
   return (
@@ -135,6 +136,31 @@ const Myprojects = () => {
             </a>
             <a
               href="https://manager-eight-omega.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Visit Website
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG9} alt="" />
+          </div>
+          <h3>Weatherly</h3>
+          <small className="text-light">HTML | CSS | API</small>
+          <div className="portfolio__item-cta">
+          <a
+              href="https://github.com/Sekhar2004/weatherLy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              Github
+            </a>
+            <a
+              href="https://weather-ly-iota.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
