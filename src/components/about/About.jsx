@@ -9,6 +9,7 @@ const About = () => {
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
+      <br></br>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -34,7 +35,8 @@ const About = () => {
             <article className="about__card">
               <TfiWorld className="about__icon" />
               <h5>Domain</h5>
-              <small>Fresher</small>
+              <small>Web Developer</small>
+
             </article>
           </div>
           <p>

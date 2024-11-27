@@ -1,6 +1,8 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
+import { AiFillPushpin } from "react-icons/ai";
+
 import { BiUser } from "react-icons/bi";
 import { FaLaptopCode } from "react-icons/fa";
 import { GoChecklist } from "react-icons/go";
@@ -25,6 +27,14 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <BiUser />
+      </a>
+      <a
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+      >
+        <AiFillPushpin />
+
       </a>
       <a
         href="#experience"
