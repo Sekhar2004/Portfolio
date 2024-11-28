@@ -195,7 +195,7 @@ const Myprojects = () => {
           <h3>My Resume</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://drive.google.com/file/d/1mfu7H46_puJCfqLhCl-uvpvSnb-VEHxW/view?usp=sharing"  //add resume link
+              href="https://drive.google.com/file/d/1-FbVB-c0Z_aqJv4u7aWEFuJOVRXqFk_S/view?usp=sharing"  //add resume link
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
