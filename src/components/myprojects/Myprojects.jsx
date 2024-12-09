@@ -10,6 +10,7 @@ import IMG7 from "../../assets/InstantTranfer.png"
 import IMG8 from "../../assets/Resume.png"
 import IMG9 from "../../assets/weatherly.png"
 import IMG10 from "../../assets/TabMaster.png"
+import IMG11 from "../../assets/InstPad.png"
 
 const Myprojects = () => {
   return (
@@ -35,6 +36,32 @@ const Myprojects = () => {
             </a>
             <a
               href="https://blog-it-nu.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Visit Website
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG11} alt="" />
+          </div>
+          <h3>InstantPadd</h3>
+          <small className="text-light">REACT JS | CLOUDINARY</small>
+          <div className="portfolio__item-cta">
+          <a
+              href="https://github.com/Sekhar2004/InstanttPadd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
+              Github
+            </a>
+            <a
+              href="https://instantt-padd.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
