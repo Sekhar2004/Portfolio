@@ -222,7 +222,7 @@ const Myprojects = () => {
           <h3>My Resume</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://drive.google.com/file/d/1ygo5mDoiAVGdKhxAMcvnmuXbC0ZvBB1o/view?usp=drive_link"  //add resume link
+              href="https://drive.google.com/file/d/1ygo5mDoiAVGdKhxAMcvnmuXbC0ZvBB1o/view?usp=sharing"  //add resume link
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
